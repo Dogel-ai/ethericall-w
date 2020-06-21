@@ -290,3 +290,14 @@ p.beattr
     font-size:25px;
     text-align:center;
 }
+
+#about
+{
+    text-align: center;
+}
+
+#ds
+{
+    text-decoration: none;
+    color:aqua;
+}
