@@ -1,12 +1,12 @@
 <!doctype HTML>
 <html lang="pl">
-    <head>
-        <title>New Ethericall</title>
-        <meta charset="utf-8"/>
+<head>
+    <title>New Ethericall</title>
+    <meta charset="utf-8"/>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/fontello.com" text="text/css">
-    </head>
+</head>
 <body>
     <a name="home"></a>
     <div class="wrapper">
@@ -20,49 +20,71 @@
         </div>  
         
     </div>
-<div class="nav">
-			<ol>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="">Projects</a>
-					<ul>
-						<li><a href="beatmerein.html">BeatMeRein</a></li>
-						<li><a href="">...</a></li>
-						<li><a href="">...</a></li>
-						<li><a href="">...</a></li>
-					</ul>
-				</li>
-				<li><a href="members.html">Members</a></li>
-                <li><a href="">About</a></li>
-				<li><a href="contact.html">Contatct</a></li>
-			</ol>
-		
-		</div>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-danger">
+        <a class="navbar-brand" href="index.html">New Ethericall</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="beatmerein.html">BiteMeDaddy</a>
+                <a class="dropdown-item" href="#">...</a>
+                <a class="dropdown-item" href="#">...</a>
+                <a class="dropdown-item" href="#">...</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="members.html">Members</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
         
         <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id placerat sem. Vivamus ac mi consequat, imperdiet risus quis, iaculis velit. Duis nec consectetur lorem. Pellentesque massa purus, sagittis dignissim dolor vitae, malesuada rutrum ipsum. Sed cursus arcu eros, ut tristique ex semper non. Mauris placerat vulputate tempus. Aliquam ut lacus dictum, egestas nunc a, ultrices lectus. Donec maximus felis augue. Ut condimentum odio et lacus varius, non gravida quam ornare. Donec volutpat, libero ac fermentum elementum, magna odio laoreet dui, nec tincidunt nisi magna nec leo. Etiam vel consequat mauris. Donec ultricies auctor diam et malesuada. In in cursus massa, at porttitor massa. Cras hendrerit tincidunt felis, ut aliquam odio molestie nec. Praesent egestas et odio id vestibulum.</p>
+            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id placerat sem. Vivamus ac mi consequat, imperdiet risus quis, iaculis velit. Duis nec consectetur lorem. Pellentesque massa purus, sagittis dignissim dolor vitae, malesuada rutrum ipsum. Sed cursus arcu eros, ut tristique ex semper non. Mauris placerat vulputate tempus. Aliquam ut lacus dictum, egestas nunc a, ultrices lectus. Donec maximus felis augue. Ut condimentum odio et lacus varius, non gravida quam ornare. Donec volutpat, libero ac fermentum elementum, magna odio laoreet dui, nec tincidunt nisi magna nec leo. Etiam vel consequat mauris. Donec ultricies auctor diam et malesuada. In in cursus massa, at porttitor massa. Cras hendrerit tincidunt felis, ut aliquam odio molestie nec. Praesent egestas et odio id vestibulum.</p>
         
-            <p>Donec lobortis massa augue, eget placerat nibh feugiat sed. Maecenas ultricies eros metus, eu imperdiet tellus semper vitae. Sed dapibus bibendum mauris. Mauris sollicitudin dolor in urna gravida consequat. Fusce porttitor velit ut tortor bibendum, efficitur auctor sem tristique. Morbi iaculis aliquam enim eu venenatis. Quisque quis arcu mauris. Phasellus at eros erat.</p>
+            <p class="text-justify">Donec lobortis massa augue, eget placerat nibh feugiat sed. Maecenas ultricies eros metus, eu imperdiet tellus semper vitae. Sed dapibus bibendum mauris. Mauris sollicitudin dolor in urna gravida consequat. Fusce porttitor velit ut tortor bibendum, efficitur auctor sem tristique. Morbi iaculis aliquam enim eu venenatis. Quisque quis arcu mauris. Phasellus at eros erat.</p>
         
-            <p>Quisque luctus justo vel lectus fringilla, sed maximus risus faucibus. Duis fringilla eros vitae eleifend lobortis. Duis placerat at mauris quis egestas. Pellentesque condimentum lacus quis sem tincidunt sodales. Fusce semper libero eget nulla fermentum tristique. Phasellus volutpat efficitur lectus, vitae pellentesque eros iaculis sit amet. Vestibulum eu imperdiet neque, sit amet placerat arcu.</p>
+            <p class="text-justify">Quisque luctus justo vel lectus fringilla, sed maximus risus faucibus. Duis fringilla eros vitae eleifend lobortis. Duis placerat at mauris quis egestas. Pellentesque condimentum lacus quis sem tincidunt sodales. Fusce semper libero eget nulla fermentum tristique. Phasellus volutpat efficitur lectus, vitae pellentesque eros iaculis sit amet. Vestibulum eu imperdiet neque, sit amet placerat arcu.</p>
         
-            <p>Praesent molestie turpis id efficitur accumsan. Duis fringilla augue nec nunc ornare semper. Suspendisse tincidunt arcu quam, nec lobortis metus ornare sit amet. Nunc fermentum, turpis ac fringilla luctus, lacus velit luctus mauris, eget sagittis tellus elit ut leo. Vivamus eget odio luctus ante fermentum tincidunt. Praesent quis finibus nibh. Ut egestas orci nec sem blandit condimentum. Curabitur mollis augue quis magna faucibus malesuada a vel erat. Donec sed orci interdum, consectetur mi in, sodales augue. Donec ac mi augue. Suspendisse vitae eleifend nisl. Nullam eget lacus dapibus, convallis lorem ut, malesuada arcu. Fusce vehicula neque eu libero laoreet posuere. Nulla eu diam urna.</p>
+            <p class="text-justify">Praesent molestie turpis id efficitur accumsan. Duis fringilla augue nec nunc ornare semper. Suspendisse tincidunt arcu quam, nec lobortis metus ornare sit amet. Nunc fermentum, turpis ac fringilla luctus, lacus velit luctus mauris, eget sagittis tellus elit ut leo. Vivamus eget odio luctus ante fermentum tincidunt. Praesent quis finibus nibh. Ut egestas orci nec sem blandit condimentum. Curabitur mollis augue quis magna faucibus malesuada a vel erat. Donec sed orci interdum, consectetur mi in, sodales augue. Donec ac mi augue. Suspendisse vitae eleifend nisl. Nullam eget lacus dapibus, convallis lorem ut, malesuada arcu. Fusce vehicula neque eu libero laoreet posuere. Nulla eu diam urna.</p>
         
-            <p>Fusce sed placerat justo. Suspendisse a enim nisl. Ut mauris ligula, ultrices id diam eu, feugiat ullamcorper lacus. Aenean lobortis in mauris at rutrum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent ultricies a massa cursus pretium. Sed a magna vel urna dapibus laoreet. Nunc ut ipsum sit amet sem tristique aliquam. Duis lacinia sapien vitae ante sollicitudin iaculis. Morbi ultrices mauris quis quam pretium fermentum. Nullam sagittis est orci, ut accumsan nisl porttitor ac. Suspendisse potenti. Mauris id ornare nulla.</p>
+            <p class="text-justify">Fusce sed placerat justo. Suspendisse a enim nisl. Ut mauris ligula, ultrices id diam eu, feugiat ullamcorper lacus. Aenean lobortis in mauris at rutrum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent ultricies a massa cursus pretium. Sed a magna vel urna dapibus laoreet. Nunc ut ipsum sit amet sem tristique aliquam. Duis lacinia sapien vitae ante sollicitudin iaculis. Morbi ultrices mauris quis quam pretium fermentum. Nullam sagittis est orci, ut accumsan nisl porttitor ac. Suspendisse potenti. Mauris id ornare nulla.</p>
             
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id placerat sem. Vivamus ac mi consequat, imperdiet risus quis, iaculis velit. Duis nec consectetur lorem. Pellentesque massa purus, sagittis dignissim dolor vitae, malesuada rutrum ipsum. Sed cursus arcu eros, ut tristique ex semper non. Mauris placerat vulputate tempus. Aliquam ut lacus dictum, egestas nunc a, ultrices lectus. Donec maximus felis augue. Ut condimentum odio et lacus varius, non gravida quam ornare. Donec volutpat, libero ac fermentum elementum, magna odio laoreet dui, nec tincidunt nisi magna nec leo. Etiam vel consequat mauris. Donec ultricies auctor diam et malesuada. In in cursus massa, at porttitor massa. Cras hendrerit tincidunt felis, ut aliquam odio molestie nec. Praesent egestas et odio id vestibulum.</p>
+            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id placerat sem. Vivamus ac mi consequat, imperdiet risus quis, iaculis velit. Duis nec consectetur lorem. Pellentesque massa purus, sagittis dignissim dolor vitae, malesuada rutrum ipsum. Sed cursus arcu eros, ut tristique ex semper non. Mauris placerat vulputate tempus. Aliquam ut lacus dictum, egestas nunc a, ultrices lectus. Donec maximus felis augue. Ut condimentum odio et lacus varius, non gravida quam ornare. Donec volutpat, libero ac fermentum elementum, magna odio laoreet dui, nec tincidunt nisi magna nec leo. Etiam vel consequat mauris. Donec ultricies auctor diam et malesuada. In in cursus massa, at porttitor massa. Cras hendrerit tincidunt felis, ut aliquam odio molestie nec. Praesent egestas et odio id vestibulum.</p>
         
-            <p>Donec lobortis massa augue, eget placerat nibh feugiat sed. Maecenas ultricies eros metus, eu imperdiet tellus semper vitae. Sed dapibus bibendum mauris. Mauris sollicitudin dolor in urna gravida consequat. Fusce porttitor velit ut tortor bibendum, efficitur auctor sem tristique. Morbi iaculis aliquam enim eu venenatis. Quisque quis arcu mauris. Phasellus at eros erat.</p>
+            <p class="text-justify">Donec lobortis massa augue, eget placerat nibh feugiat sed. Maecenas ultricies eros metus, eu imperdiet tellus semper vitae. Sed dapibus bibendum mauris. Mauris sollicitudin dolor in urna gravida consequat. Fusce porttitor velit ut tortor bibendum, efficitur auctor sem tristique. Morbi iaculis aliquam enim eu venenatis. Quisque quis arcu mauris. Phasellus at eros erat.</p>
         
-            <p>Quisque luctus justo vel lectus fringilla, sed maximus risus faucibus. Duis fringilla eros vitae eleifend lobortis. Duis placerat at mauris quis egestas. Pellentesque condimentum lacus quis sem tincidunt sodales. Fusce semper libero eget nulla fermentum tristique. Phasellus volutpat efficitur lectus, vitae pellentesque eros iaculis sit amet. Vestibulum eu imperdiet neque, sit amet placerat arcu.</p>
+            <p class="text-justify">Quisque luctus justo vel lectus fringilla, sed maximus risus faucibus. Duis fringilla eros vitae eleifend lobortis. Duis placerat at mauris quis egestas. Pellentesque condimentum lacus quis sem tincidunt sodales. Fusce semper libero eget nulla fermentum tristique. Phasellus volutpat efficitur lectus, vitae pellentesque eros iaculis sit amet. Vestibulum eu imperdiet neque, sit amet placerat arcu.</p>
         
-            <p>Praesent molestie turpis id efficitur accumsan. Duis fringilla augue nec nunc ornare semper. Suspendisse tincidunt arcu quam, nec lobortis metus ornare sit amet. Nunc fermentum, turpis ac fringilla luctus, lacus velit luctus mauris, eget sagittis tellus elit ut leo. Vivamus eget odio luctus ante fermentum tincidunt. Praesent quis finibus nibh. Ut egestas orci nec sem blandit condimentum. Curabitur mollis augue quis magna faucibus malesuada a vel erat. Donec sed orci interdum, consectetur mi in, sodales augue. Donec ac mi augue. Suspendisse vitae eleifend nisl. Nullam eget lacus dapibus, convallis lorem ut, malesuada arcu. Fusce vehicula neque eu libero laoreet posuere. Nulla eu diam urna.</p>
+            <p class="text-justify">Praesent molestie turpis id efficitur accumsan. Duis fringilla augue nec nunc ornare semper. Suspendisse tincidunt arcu quam, nec lobortis metus ornare sit amet. Nunc fermentum, turpis ac fringilla luctus, lacus velit luctus mauris, eget sagittis tellus elit ut leo. Vivamus eget odio luctus ante fermentum tincidunt. Praesent quis finibus nibh. Ut egestas orci nec sem blandit condimentum. Curabitur mollis augue quis magna faucibus malesuada a vel erat. Donec sed orci interdum, consectetur mi in, sodales augue. Donec ac mi augue. Suspendisse vitae eleifend nisl. Nullam eget lacus dapibus, convallis lorem ut, malesuada arcu. Fusce vehicula neque eu libero laoreet posuere. Nulla eu diam urna.</p>
         
-            <p>Fusce sed placerat justo. Suspendisse a enim nisl. Ut mauris ligula, ultrices id diam eu, feugiat ullamcorper lacus. Aenean lobortis in mauris at rutrum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent ultricies a massa cursus pretium. Sed a magna vel urna dapibus laoreet. Nunc ut ipsum sit amet sem tristique aliquam. Duis lacinia sapien vitae ante sollicitudin iaculis. Morbi ultrices mauris quis quam pretium fermentum. Nullam sagittis est orci, ut accumsan nisl porttitor ac. Suspendisse potenti. Mauris id ornare nulla.</p>
+            <p class="text-justify">Fusce sed placerat justo. Suspendisse a enim nisl. Ut mauris ligula, ultrices id diam eu, feugiat ullamcorper lacus. Aenean lobortis in mauris at rutrum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent ultricies a massa cursus pretium. Sed a magna vel urna dapibus laoreet. Nunc ut ipsum sit amet sem tristique aliquam. Duis lacinia sapien vitae ante sollicitudin iaculis. Morbi ultrices mauris quis quam pretium fermentum. Nullam sagittis est orci, ut accumsan nisl porttitor ac. Suspendisse potenti. Mauris id ornare nulla.</p>
         </div>
     
         
         <div class="footer">New Ethericall &copy; 2020 All rights reserved</div>
         
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     </div>
     
 </body>
