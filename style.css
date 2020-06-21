@@ -196,8 +196,19 @@ ol > li > ul > li:hover > a
 	color: #451717;
 }
 
-@media (max-width: 600px) {
-  .content {
-    padding: 50px;
+@media (max-width: 1080px) {
+  body {
+    padding: 15px;
   }
+}
+
+p.beattr
+{
+    text-align:center;
+}
+
+#btr
+{
+    text-decoration:none;
+    color:aqua;
 }
