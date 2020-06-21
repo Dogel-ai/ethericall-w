@@ -198,7 +198,6 @@ ol > li > ul > li:hover > a
 
 @media (max-width: 600px) {
   body {
-    background-color: lightblue;
     padding: 15px;
   }
 }
