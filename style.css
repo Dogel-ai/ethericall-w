@@ -197,7 +197,7 @@ ol > li > ul > li:hover > a
 }
 
 @media (max-width: 600px) {
-  body {
+  .content {
     padding: 50px;
   }
 }
