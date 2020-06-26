@@ -7,7 +7,31 @@ body
     margin:0 !important;
 }
 
-.wrapper
+.managment {
+    margin-right: 250px;
+}
+
+.level-design {
+    margin-left: 250px;
+}
+
+.coding {
+    margin-right: 250px;
+}
+
+.graphic {
+    margin-left: 250px;
+}
+
+.marketing {
+    margin-right: 250px;
+}
+
+.sound {
+    margin-left: 250px;
+}
+
+.container
 {
     width: 100%;
 }
