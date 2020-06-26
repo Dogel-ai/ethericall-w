@@ -6,6 +6,43 @@ body
     color: #ffffff;
     margin:0 !important;
 }
+/* Hover menu animation */
+.navbar:hover .nav-link:not(:hover){
+    color: #003977;
+  }
+
+.nav-item2
+{
+  position: relative !important;
+  overflow: hidden !important;
+
+  will-change: color !important;
+  transition: color .25 ease-out !important;  
+}
+
+.nav-item2::before
+{
+  left: 50% !important;
+  transform: translateX(-50%) !important; 
+}
+
+.nav-item2::after
+{
+  right: 50% !important;
+  transform: translateX(50%) !important; 
+}
+
+.nav-item2:hover::before, 
+.nav-item2:hover::after
+{
+  width: 100% !important;
+  transition-duration: .2s !important;
+}
+/* End hover menu animation */
+
+.bg-babyblue {
+    background: #007bff;
+}
 
 .managment {
     margin-right: 250px;
